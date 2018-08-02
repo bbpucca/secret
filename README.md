@@ -2,12 +2,12 @@
 <h1>Secret</h1>
 
 
-<h1>Versions de Ruby :</h1>
+<h2>Versions de Ruby :</h2>
 Ruby version : 2.5.1
 
 Rails version : 5.2.0
 
-<h1>Utilisation en local</h1>
+<h2>Utilisation en local</h2>
 git clone https://github.com/bbpucca/secret.git
 
 cd THP_Secret
