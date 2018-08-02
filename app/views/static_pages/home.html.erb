@@ -1,6 +1,6 @@
 <h1>Register if you want to know the answer to the Universe !</h1>
 
-<% if logged_in? %>
+<center><% if logged_in? %>
   <h2><a href="static_pages/secret">Get the answer</a></h2>
 <% else %>
   <h2><a href="login" data-confirm="You have to log in first">Get the answer</a></h2>
@@ -16,4 +16,4 @@
     <p>Il y a déjà <%= @users.length %> profils</p>
   <% else %>
     <p>Discover the answer</p>
-  <% end %>
+  <% end %></center>
