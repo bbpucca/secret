@@ -8,7 +8,7 @@ Ruby version : 2.5.1
 Rails version : 5.2.0
 
 <h2>Utilisation en local</h2>
-git clone https://github.com/bbpucca/secret.git
+<p>git clone https://github.com/bbpucca/secret.git
 
 cd THP_Secret
 
