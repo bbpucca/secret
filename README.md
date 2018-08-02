@@ -24,7 +24,7 @@ Go sur http://localhost:3000/
 Le lien heroku : 
 
 
-Réalisé avec amour par la Five:
+<h2>Réalisé avec amour par la Five:</h2>
 <p>
 <p>Hadia Bouria
 <p>Jérémie Edery
