@@ -25,7 +25,8 @@ Le lien heroku :
 
 
 Réalisé avec amour par la Five:
-Hadia Bouria
-Jérémie Edery
-Mai Lan Peng
-Valérie Chang
+<p>
+<p>Hadia Bouria
+<p>Jérémie Edery
+<p>Mai Lan Peng
+<p>Valérie Chang
