@@ -16,7 +16,6 @@ bundle install --without production
 
 rails db:migrate
 
-rails db:seed (pas forcément ultra utile comme tu peux créer un utilisateur direct sur le site)
 
 rails server
 
