@@ -21,7 +21,7 @@ rails server
 
 Go sur http://localhost:3000/
 
-Le lien heroku : 
+Le lien heroku : https://mimisecret.herokuapp.com/
 
 
 <h2>Réalisé avec amour par la team:</h2>
