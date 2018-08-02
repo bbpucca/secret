@@ -10,7 +10,7 @@ Rails version : 5.2.0
 <h2>Utilisation en local</h2>
 <p>git clone https://github.com/bbpucca/secret.git
 
-cd THP_Secret
+cd secret
 
 bundle install --without production
 
