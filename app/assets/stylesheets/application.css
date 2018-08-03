@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+ */.navbar {
+  min-height: 38px;
+  background-color: #bed2c3;
+}
+
+footer {
+  background-color: #bed2c3;
+  padding: 30px 0;
+}
