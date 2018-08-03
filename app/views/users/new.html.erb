@@ -1,19 +1,19 @@
 <% provide(:title, 'Sign up') %>
 
-	  	<h1>S'enregistrer</h1>
-	    <%= form_for(@user) do |f| %>
+<h1>register</h1>
+<%= form_for(@user) do |f| %>
 
-	      <%= f.label :email %>
-	      <%= f.email_field :email %>
+<%= f.label :email %>
+<%= f.email_field :email %>
 
-	      <%= f.label :password, "Mot de passe" %>
-	      <%= f.password_field :password %>
+<%= f.label :password, "Password" %>
+<%= f.password_field :password %>
 
-	      <%= f.label :password_confirmation, "Confirmer vôtre mot de passe" %>
-	      <%= f.password_field :password_confirmation %>
+<%= f.label :password_confirmation, "Confirm your password" %>
+<%= f.password_field :password_confirmation %>
 
-	      <%= f.submit "Confirmer" %>
-	    <% end %>
-	    <br/>
-	    <p>Déjà enregistré ?</p>
-			<a href="login">Se connecter</a>
+<%= f.submit "To confirm" %>
+<% end %>
+<br/>
+<p>Already registered ?</p>
+<a href="login">To log in</a>
