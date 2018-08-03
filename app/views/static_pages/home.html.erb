@@ -1,35 +1,21 @@
 
+<h1>Welcome home!</h1>
+<h1>🚀 Rejoins la secte THP pour connaître le secret de l'Univers 🛸</h1>
 
-<h1>🚀 Rejoins la secte THP pour connaître le secret de l'Univers 🛸 </h1>
-<br>
-
-<center><% if logged_in? %>
-  <h2><a href="static_pages/secret">Get the answer</a></h2>
+<% if logged_in? %>
+  <h2><a href="static_pages/secret">Connaître la réponse</a></h2>
 <% else %>
-
-
-  <h2><a href="login" data-confirm="Hola!Connecte toi d'abord">Ze ultimate answer 💫 </a></h2>
-
+  <h2><a href="login" data-confirm="Hola!Connecte toi">Connaître la réponse</a></h2>
 <% end %>
 
     <% if logged_in? %>
 
     <% else %>
-
-      <%= link_to "Create an account", signup_path %>
-
-      
+      <%= link_to "Crée ton compte", signup_path %>
     <% end %>
 
   <% if @users.length >= 1 %>
-    <p>There are<%= @users.length %> user</p>
+    <p>Il y a déjà <%= @users.length %> profils</p>
   <% else %>
-
-    <p>Discover the answer</p>
-  <% end %></center>
-
-<center><img src="https://media.giphy.com/media/ygRvBA8SWudws/giphy.gif" alt="Confused Pokemon GIF" style="width: 480px; height: 359.76px; opacity: 1; left: 0px; top: 0px;"></center>
-
-
-    <p>Fais partie des élus de THP!</p>
+    <p>Take the red pill</p>
   <% end %>
