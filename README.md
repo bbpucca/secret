@@ -25,7 +25,6 @@ Go sur http://localhost:3000/
 
 Le lien heroku : https://mimisecret.herokuapp.com/
 
-Example du profil utilisé: email: user@example.com , mot de passe : foobar
 
 <h2>Réalisé avec amour par la team:</h2>
 <p>
